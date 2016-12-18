@@ -15,26 +15,6 @@ p {
 	min-width: 500px;
 }
 
-#jsinfo {
-	font-size: 18px;
-	max-width: 65%;
-	min-width: 500px;
-	font-family: "Times New Roman", Times, serif;
-	-webkit-transition-duration: 0.4s; 
-		transition-duration: 0.8s;
-	color: rgb(255, 0, 0);
-	display: inline-block;
-	background-color: rgb(0, 0, 0);
-	background: linear-gradient(to bottom right, black, gray);
-}
-
-#jsinfo:hover {
-	color: rgb(255, 0, 0);
-	font-size: 24px;
-	transform: rotateX(360deg);
-
-}
-
 h2 {
 	text-align: center;
 	font-size: 2.6rem;
