@@ -1,0 +1,72 @@
+html, body {
+	font-family: sans-serif;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	font-size: 48px;
+	font-family: impact, verdana, sans-serif;
+}
+
+p {
+	max-width: 65%;
+	min-width: 500px;
+}
+
+#jsinfo {
+	font-size: 18px;
+	max-width: 65%;
+	min-width: 500px;
+	font-family: "Times New Roman", Times, serif;
+	-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.8s;
+	color: rgb(255, 0, 0);
+	display: inline-block;
+	background-color: rgb(0, 0, 0);
+	background: linear-gradient(to bottom right, black, gray);
+}
+
+#jsinfo:hover {
+	color: rgb(255, 0, 0);
+	font-size: 24px;
+	transform: rotateX(360deg);
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.6rem;
+}
+
+div {
+	padding-right: 30px;
+	height: 100%;
+	width: 100%;
+}
+
+video {
+	background-color: #000000;
+	border: 2px solid black;
+}
+
+.container {
+	display: flex;
+}
+
+.main {
+	padding-left: 30px;
+	min-width: 75%;
+}
+
+.nav {
+	background-color: #FFEE00;
+	max-width: 25%;
+	min-width: 140px;
+	flex: 1;
+}
+
+.nav h1 {
+	padding-left: 20px;
+}
